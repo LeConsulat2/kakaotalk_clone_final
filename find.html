@@ -23,61 +23,89 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <div><i class="fa-solid fa-magnifying-glass fa-lg"></i></div>
-        <div><i class="fa-regular fa-message fa-lg"></i></div>
-        <div><i class="fa-solid fa-music fa-lg"></i></div>
         <div><i class="fa-solid fa-gear fa-lg"></i></div>
+        <div class="red-dot">.</div>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://avatars.githubusercontent.com/u/139603040?v=4"
-            class="user-component__img"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Jonathan</h4>
-            <h6 class="user-component__subtitle">
-              Please check my Kakao Account Info
-            </h6>
-          </div>
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR</span>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <div class="badge">12</div>
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-address-book"></i></i>
+          <span>Add by Contacts</span></div>
+        <div class="find-icons__icon">
+          <i class="fa-regular fa-id-badge"></i>
+          <span>Add by ID</span></div>
+        <div class="find-icons__icon">
+          <i class="fa-regular fa-envelope"></i>
+          <span>Invite</span></div>
+      </div>
+
+    <div class="recommended-friends">
+      <h6 class="recommended-friends__title">Recommended friends</h6>
+      <span>You have no recommended-friends.</span>
+    </div>
+
+    <div class="open-chat">
+      <div class="open-chat__header">
+        <h4>Open Chat</h4>
+        <span>Go to Openchat Home <i class="fa-solid fa-chevron-right fa-xs"></i></span>
+      </div>
+    </div>
+
+    <div class="open-post">
+      <div class="open-post__column">
+        <h5 class="open-post__title">#TRAVEL</h5>
+        <h6 class="open-post__hastags">#Amsterdam</h6>
+        <div class="open-post__members">
+          <img src="https://avatars.githubusercontent.com/u/139603040?v=4" />
+          <span class="open-post__member-count">800 members</span>
+          <div class="divider"></div>
+          <span class="open-post__member-status">Active</span>
         </div>
       </div>
+      <div class="open-post__column"></div>
+    </div>
+
     </main>
 
-    <nav class="nav">
-      <ul class="nav__ul">
-        <li class="nav__li">
-          <a class="nav__a" href="friends.html"
-            ><i class="fa-regular fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__li">
-          <a class="nav__a" href="chats.html"
-            ><i class="fa-regular fa-comment fa-2x"></i
-            ><span class="nav__notification badge">1</span></a
-          >
-        </li>
-        <li class="nav__li">
-          <a class="nav__a" href="find.html"
-            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__li">
-          <a class="nav__a" href="more.html"
-            ><i class="fa-solid fa-ellipsis fa-2x"></i
-          ></a>
-        </li>
-      </ul>
-    </nav>
+
+
+
+
+      <nav class="nav">
+        <ul class="nav__ul">
+          <li class="nav__li">
+            <a class="nav__a" href="friends.html"
+              ><i class="fa-regular fa-user fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__li">
+            <a class="nav__a" href="chats.html"
+              ><i class="fa-regular fa-comment fa-2x"></i
+              ><span class="nav__notification badge">1</span></a
+            >
+          </li>
+          <li class="nav__li">
+            <a class="nav__a" href="find.html"
+              ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__li">
+            <a class="nav__a" href="more.html"
+              ><i class="fa-solid fa-ellipsis fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </main>
 
     <script
       src="https://kit.fontawesome.com/0a0d632fcb.js"
