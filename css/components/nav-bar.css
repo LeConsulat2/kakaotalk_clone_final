@@ -9,10 +9,17 @@
 }
 
 .nav__a {
+    position: relative;
     color:#2e363e;
 }
 
 .nav__ul{
     display:flex;
     justify-content: space-between;
+}
+
+.nav__notification {
+    position: absolute;
+    left:15px;
+    bottom: 15px;
 }
