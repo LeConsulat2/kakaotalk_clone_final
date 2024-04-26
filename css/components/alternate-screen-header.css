@@ -1,0 +1,25 @@
+.alternate-header {
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.alternate-header__title {
+    font-weight: 600;
+    font-size: 32px;
+
+}
+
+.alternate-header__column:first-child {
+    margin-right: auto;
+}
+
+.alternate-header__column:last-child {
+    margin-left: auto;
+}
+
+.alternate-header__column:last-child i {
+    padding: 0px 12px;
+}
