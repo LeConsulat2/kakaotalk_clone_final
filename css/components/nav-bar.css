@@ -18,7 +18,7 @@
     justify-content: space-between;
 }
 
-@keyframes notificationAnimation {
+/* @keyframes notificationAnimation {
     0% {
         transform: none;
     }
@@ -28,14 +28,18 @@
     100% {
         transform: none;
     }
-}
+} */
 
 .nav__notification {
     position: absolute;
     left:15px;
     bottom: 15px;
-    animation: notificationAnimation 2s ease-in-out infinite;
-}
+    }    
+    /* animation: notificationAnimation 2s ease-in-out infinite;
+} */
+
+/* Also think about using animation delay on appearBtnAnimation */
+
 
 .red-dot {
     background-color: tomato;

@@ -22,11 +22,24 @@
     z-index: 2;
 }
 
+@keyframes fadeIn {
+
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to  {
+        transform: none;
+        opacity: 1;
+    }
+}
+
 .main-chat {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: fadeIn 0.5s linear
 }
 
 .chat__timestamp {
@@ -159,4 +172,10 @@
 .reply__column button:focus, 
 .reply__column button:active {
     outline: none;
+}
+
+.reply:focus-within .reply__column:first-child {
+    display: none;
+    /* opacity: 0;
+    visibility: hidden; */
 }
