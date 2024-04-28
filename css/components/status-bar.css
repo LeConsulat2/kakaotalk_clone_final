@@ -5,17 +5,16 @@
     position:fixed;
     width:100%;
     box-sizing: border-box; 
+    
+    top:0;
 }
-    
-    
 
-
-/* .status-bar__column {
+.status-bar__column {
     width: 33%;
-} */
+}
 
 .status-bar__column:first-child  span {
-    margin-right: 10px;
+    margin-right: 5px;
 
 }
 
@@ -26,7 +25,7 @@
 
 .status-bar__column:nth-child(3) {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
