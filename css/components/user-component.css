@@ -10,6 +10,10 @@
     
 }
 
+.user-component__column {
+    margin-bottom: 15px;
+}
+
 .user-component__img {
     width: 75px;
     height:75px;
